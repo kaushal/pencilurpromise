@@ -1,5 +1,5 @@
 <?php
-	$data = mysql_query("SELECT * FROM People") or die(mysql_error());
+	//$data = mysql_query("SELECT * FROM People") or die(mysql_error());
 ?>
 <div class="three pull-nine mobile-four columns sidenav_custom">
 	<br>

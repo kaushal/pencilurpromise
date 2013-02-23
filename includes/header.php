@@ -7,8 +7,9 @@
     </div>
     <div id="hright">
     
-    	<p>Header right</p>
-    
+    	<fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
+		</fb:login-button>
+
     </div>
 	</div>
 </div>
