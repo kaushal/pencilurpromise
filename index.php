@@ -30,10 +30,12 @@
         <div class="nine push-three mobile-four columns">
         	<!-- Status bar -->
             <div class="row">
-                <div class="eight columns">
-                <p>Heart Status</p>
+                <div class="nine columns">
+                <div class="row">
+                	<img src="http://placehold.it/525x50"/>
                 </div>
-                <div class="four columns">
+                </div>
+                <div class="three columns" style="background-color:black">
                 <p>Donation</p>
                 </div>
             	<hr/>
