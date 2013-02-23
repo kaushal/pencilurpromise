@@ -17,6 +17,10 @@
     <script type="text/javascript" src="includes/js/templates.js"></script>
 </head>
 <body>
+    <?php 
+        mysql_connect("localhost", "root", "root") or die(mysql_error());
+        mysql_select_db("PoP") or die(mysql_error());
+    ?>
 	<div class="row">
 	<div class="twelve columns" >
         <!-- Includes Header -->	
