@@ -37,5 +37,6 @@
 	<!--FACEBOOK INTEGRATION -->
 
 	<div class="row">
+		<?php include 'side_fb.php' ?>
 	</div>
 </div>
