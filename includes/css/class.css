@@ -1,0 +1,13 @@
+/*Css for side_nav.php*/
+.button-resize{
+	width:60%;
+	background-color: rgb(238, 171, 0); 
+	border-color: rgb(238, 171, 0);
+	margin-left: 15%;	
+}
+
+.sidenav_custom{
+	border-color: rgb(238, 171, 0);
+	border-width: 1%;
+}
+/*end of side_nav.php css*/
