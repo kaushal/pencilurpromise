@@ -1,4 +1,4 @@
-/*Css for side_nav.php*/
+/*Css for side navigation*/
 .button-resize{
 	width:60%;
 	background-color: rgb(238, 171, 0); 
@@ -11,4 +11,12 @@
 	border-color: rgb(238, 171, 0);
 	border-width: 5%;
 }
-/*end of side_nav.php css*/
+/*end of side navigation*/
+
+.scene_view {	
+	 background-image:url('http://placehold.it/800x600&text=Scenary View');
+}
+
+.school_view {
+	 background-image:url('http://placehold.it/800x600&text=School View');
+}

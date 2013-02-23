@@ -14,5 +14,11 @@
  * Override exisiting ID's
  * =======================
  */
+ #scene_wrapper {
+	 height:600px;
+ }
  
+ #scene_trigger {
+	 margin-top:15px;
+ }
 
