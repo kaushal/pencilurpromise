@@ -1,3 +1,7 @@
+<?php 
+	mysql_connect("localhost", "root", "root") or die(mysql_error());
+	mysql_select_db("PoP") or die(mysql_error());
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -12,16 +16,12 @@
 		<link type="text/css" rel="stylesheet" href="includes/css/class.css" />
 		<link type="text/css" rel="stylesheet" href="includes/css/override.css" />
 <body>
-
-    <?php 
-        mysql_connect("localhost", "root", "root") or die(mysql_error());
-        mysql_select_db("PoP") or die(mysql_error());
-    ?>
 	<div class="row">
 
     <fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
     </fb:login-button>
     
+    <?php include("includes/facebook.php") ?>
 	<div class="twelve columns" >
         <!-- Includes Header -->	
         <?php include("includes/header.php") ?>
@@ -93,8 +93,7 @@
     <script type="text/javascript" src="includes/js/jquery.js"></script>
     <script type="text/javascript" src="includes/js/jquery-json.js"></script>
     <script type="text/javascript" src="includes/js/templates.js"></script>
-	<script src="http://connect.facebook.net/en_US/all.js"></script>
-    <script type="text/javascript" src="includes/js/facebook.js"></script>
+	<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
     <script type="text/javascript" src="includes/js/pop.js"></script>
 </body>
 </html>
