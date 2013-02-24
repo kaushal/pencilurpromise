@@ -14,14 +14,14 @@
 <body>
 
     <?php 
-        mysql_connect("localhost", "root", "root") or die(mysql_error());
-        mysql_select_db("PoP") or die(mysql_error());
+        mssql_connect("https://ec2-75-101-203-163.compute-1.amazonaws.com, 1433", "POP_Admin", "Code4Good") or die("Can not connect to server");
+        mssql_select_db("tempdb") or die("Can not select database");
     ?>
 	<div class="row">
 
     <fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
     </fb:login-button>
-    
+
 	<div class="twelve columns" >
         <!-- Includes Header -->	
         <?php include("includes/header.php") ?>
