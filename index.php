@@ -128,11 +128,11 @@
         </div>
     </div>
     
-    <!-- Includes Left Sidebar -->
-    <?php include("includes/side_nav.php") ?>
-    
+    <!-- Includes Left Sidebar -->    
     </div>
     </div><!-- #end-of-main-content-area -->
+    <?php include("includes/side_nav.php") ?>
+
     
     <!-- Includes Footer -->
     <?php include("includes/footer.php") ?>
