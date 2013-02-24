@@ -8,6 +8,7 @@ $('document').ready(function(){
 
     $picButton.click(function(){
         var value = $(this).attr('value');
+
         if(!$infoDisplay.is(":visible")){
             $infoDisplay.empty();
             $infoDisplay.append('<p>' + value  +  '</p>');
