@@ -26,11 +26,6 @@
 </head>
 <body>
 	<div class="row">
-
-    <fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
-    </fb:login-button>
-
-	<div class="row">
 	<div class="twelve columns" >
         <!-- Includes Header -->	
         <?php include("includes/header.php") ?>
@@ -68,28 +63,28 @@
                 <a id="scene_trigger" class="round button" href="javascript:scene_trigger()">to School View</a>
             </div>
             
-            <div class="twelve columns"><div class="eight columns offset-by-four">
+            <div class="twelve columns"><div id="blackboard" class="eight columns offset-by-four">
                 <img src="http://placehold.it/200x100"/>
             </div></div>
             
             <div class="twelve columns">
-                <div class="six columns"><img src="http://placehold.it/200x100"/></div>
-                <div class="six columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="chalks" class="six columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="b_eraser"class="six columns"><img src="http://placehold.it/200x100"/></div>
             </div>
             
-            <div class="twelve columns"><div class="eight columns offset-by-four">
+            <div class="twelve columns"><div id="table" class="eight columns offset-by-four">
                 <img src="http://placehold.it/200x100"/>
             </div></div>
             
             <div class="twelve columns">
-                <div class="four columns"><img src="http://placehold.it/200x100"/></div>
-                <div class="four columns"><img src="http://placehold.it/200x100"/></div>
-                <div class="four columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="eraser" class="four columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="pencil" class="four columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="paper" class="four columns"><img src="http://placehold.it/200x100"/></div>
             </div>
             
             <div class="twelve columns">
-                <div class="six columns"><img src="http://placehold.it/200x100"/></div>
-                <div class="six columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="chair" class="six columns"><img src="http://placehold.it/200x100"/></div>
+                <div id="desk" class="six columns"><img src="http://placehold.it/200x100"/></div>
             </div>
         </div>
     </div>
