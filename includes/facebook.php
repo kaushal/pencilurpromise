@@ -17,7 +17,7 @@ function getFriends() {
 				$.ajax( {
 					url: "includes/test.php",
 					type: "GET",
-					data: "index_id=index, friend_id=friend",
+					data: '{"index_id":'+index+', "friend_id":'+friend+'}',
 					cache: true,
 					success: search
 				});
