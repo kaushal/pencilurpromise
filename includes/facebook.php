@@ -15,8 +15,8 @@ function getFriends() {
 		if(response.data) {
 			$.each(response.data,function(index,friend) {
 				$.ajax( {
-					url: "test.php",
-					type: "POST",
+					url: "includes/test.php",
+					type: "GET",
 					data: "index_id=index, friend_id=friend",
 					cache: true,
 					success: search

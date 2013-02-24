@@ -1,6 +1,6 @@
 <?php
-$index = $_POST['index_id'];
-$friend = $_POST['friend_id'];
+$index = $_REQUEST['index_id'];
+$friend = $_REQUEST['friend_id'];
 
 if(isset($index) && isset($friend)) {
    
