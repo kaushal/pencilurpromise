@@ -38,7 +38,7 @@
         	<div class="twelve columns text-center">
     		<a class="round button" href="javascript:getFriends()">Fb list</a><br/>
             </div>
-            <div id="fb" class="twelve columns container">
+            <div id="fb" class="container">
             </div>
             
 			<?php include 'side_fb.php' ?>
