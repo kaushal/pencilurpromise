@@ -36,6 +36,9 @@
         <!-- Facebook Intergration -->
         <li class="active" id="facebookTab">
     		<a class="round button" href="javascript:getFriends()">Fb list</a>
+            <div id="fb" class="text-center">
+            </div>
+            
 			<?php include 'side_fb.php' ?>
         </li>
         <!-- School Building Blocks -->
