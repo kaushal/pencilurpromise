@@ -51,7 +51,7 @@
 		<!-- Choose from existing groups -->
 		<div class="six columns">
 
-			<label for="customDropdown">View an existing project</lable>
+			<label for="customDropdown">View an existing project</label>
 			<select style="display:none;" id="customDropdown">
 				<option SELECTED>Project Guata</option>
 				<option>Help Nicaragua!</option>
