@@ -18,7 +18,7 @@
             <option value="">Choose a Country to View</option>
             <?php
                 while($info = mysql_fetch_array($data)){
-                    echo "<option value='".$info['ProjID']."'>".$info['Country']."</li>";
+                    echo "<option value='".$info['ProjID']."'>".$info['Country']."</option>";
                 }
             ?>
         </select>
