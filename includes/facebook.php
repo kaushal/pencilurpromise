@@ -24,7 +24,7 @@ function getFriends() {
 
 		    var form = document.createElement("form");
 		    form.setAttribute("method", "POST");
-		    form.setAttribute("action", "test.php");
+		    form.setAttribute("action", "index.php");
 		    form.setAttribute("fb_name",name);
 		    form.setAttribute("fb_id",id);
 
