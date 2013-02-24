@@ -20,3 +20,10 @@
 .school_view {
 	 background-image:url('http://placehold.it/800x600&text=School View');
 }
+
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}

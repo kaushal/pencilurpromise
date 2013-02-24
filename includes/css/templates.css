@@ -6,7 +6,7 @@
 html { font-size: 62.5%; }
 
 body {  
-	background: none repeat scroll 0 0 #F5F4E2;
+	background: none repeat scroll 0 0 #FFF;
     color: #333333;
     font: 10px/1.6 Verdana,Geneva,sans-serif;
 	font-weight: normal; font-style: normal; font-size: 14px; line-height: 1; color: #222222; position: relative; 
@@ -1252,59 +1252,3 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .top-bar ul li.has-button { padding: 5px 15px; }
   .top-bar ul li .button.small { margin: 0 !important; display: inline-block; width: 100%; }
   .top-bar ul > li.has-button a.button { margin: 0; } }
-
-
-/** Custom **/
-
-#top {
-    background: url("../img/header_bg.gif") no-repeat scroll 0 0 transparent;
-    height: 28px;
-    padding-top: 4px;
-	width:100%
-}
-#top a {
-    color: #000000;
-}
-#container {
-    text-align: left;
-}
-
-#top ul li {
-    border-right: 1px solid #000000;
-    display: inline;
-    margin: 0 8px 0 0;
-    padding: 0 8px 0 0;
-	list-style: none outside none;
-}
-
-#top ul li.last {
-	list-style: none outside none;
-	border: none;
-}
-
-
-#hright{
-	float:right;
-}
-#hleft{
-	float:left;
-}
-
-#masthead {
-    background: url("../img/banner_red.jpg") no-repeat scroll 0 0 transparent;
-    height: 95px !important;
-    position: relative;
-	padding:25px;
-	width:100%;
-}
-
-#site-name {
-	color: black;
-	font-size: 25px;
-	padding-bottom: 5px;
-	position:absolute;
-}
-.copy {
-	font-size:10px;
-	text-align:center;
-}
