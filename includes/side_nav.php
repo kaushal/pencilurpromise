@@ -5,10 +5,10 @@
 <div class="shift-tab">
 	<ul class="nav-bar vertical">
 		<li>
-			<a href="donate.php"> Make a Promise</a>
+			<a href="includes/donate.php"> Make a Promise</a>
 		</li>
 		<li>
-			<a href="group.php">View/Create Groups</a>
+			<a href="includes/group.php">View/Create Groups</a>
 		</li>
 	</ul>
     <hr>
