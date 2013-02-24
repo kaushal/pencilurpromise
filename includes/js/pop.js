@@ -1,5 +1,18 @@
+function increment(id) {
+	var value = document.getElementById(id);
+	var parser = (value.innerHTML).split('/');
+	var current = parser[0];
+	var limit = parser[1];
+	console.log(current + "vs" + limit);
+	if (current != limit) {
+		current++;
+		document.getElementById(id).innerHTML = current + "/" + limit;
+	} else {
+		alert("");
+	}
+}
+
 function scene_trigger() {
-	
 	var trigger = document.getElementById('scene_trigger');
 	var scene = document.getElementById('scene_wrapper');
 	
@@ -11,15 +24,11 @@ function scene_trigger() {
 		scene.className = 'row school_view';
 		scene_block.className = 'hide';
 		school_block.className = 'show';
-		console.log("School: " + school_block.className);
-		console.log("Scene: " + scene_block.className);
 	} else if (school_block.className == 'show') {
 		trigger.innerHTML = 'to School View';
 		scene.className = 'row scene_view';
 		scene_block.className = 'show';
 		school_block.className = 'hide';
-		console.log("School: " + school_block.className);
-		console.log("Scene: " + scene_block.className);
 	}
 }
 	

@@ -134,24 +134,33 @@ function post_to_url(name, id){
             
             <!-- School View Block -->
             <div id="school" class="hide">
-            <div class="twelve columns"><div id="blackboard" class="six columns end">
+            <div class="twelve columns shift-up"><div class="seven columns end shift-ex">
                 <a href="#"><img src="includes/img/blackboard.jpg"/></a>
+                <div id="blackboard" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div id="chalks" class="three columns offset-by-four"><a href="#"><img src="includes/img/chalk.jpg"/></a></div>
-                <div id="b_eraser"class="three columns end"><a href="#"><img src="includes/img/b_eraser.jpg"/></a></div>
+                <div class="three columns offset-by-four"><a href="#"><img src="includes/img/chalk.jpg"/></a>
+                <div id="chalks" class="current">0/10</div></div>
+                <div class="three columns end"><a href="#"><img src="includes/img/b_eraser.jpg"/></a>
+                <div id="b_eraser" class="current">0/5</div></div>
             </div>
-            <div class="twelve columns shift-down"><div id="table" class="eight columns offset-by-four">
+            <div class="twelve columns shift-down"><div class="eight columns offset-by-four">
                 <a href="#"><img src="includes/img/table.jpg"/></a>
+                <div id="table" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div id="eraser" class="four columns offset-by-one"><a href="#"><img src="includes/img/eraser.jpg"/></a></div>
-                <div id="pencil" class="three columns"><a href="#"><img src="includes/img/pencil.jpg"/></a></div>
-                <div id="paper" class="three columns offset-by-one"><a href="#"><img src="includes/img/paper.jpg"/></a></div>
+                <div class="four columns offset-by-one"><a href="#"><img src="includes/img/eraser.jpg"/></a>
+                <div id="eraser" class="current">0/20</div></div>
+                <div class="three columns"><a href="#"><img src="includes/img/pencil.jpg"/></a>
+                <div id="pencil" class="current">0/20</div></div>
+                <div class="three columns offset-by-one"><a href="#"><img src="includes/img/paper.jpg"/></a>
+                <div id="paper" class="current">0/1000</div></div>
             </div>
             <div class="twelve columns shift-down">
-                <div id="chair" class="five columns offset-by-two"><a href="#"><img src="includes/img/chair.jpg"/></a></div>
-                <div id="desk" class="five columns"><a href="#"><img src="includes/img/desk.jpg"/></a></div>
+                <div class="five columns offset-by-two"><a href="#"><img src="includes/img/chair.jpg"/></a>
+                <div id="chair" class="current">0/20</div></div>
+                <div class="five columns"><a href="#"><img src="includes/img/desk.jpg"/></a>
+                <div id="desk" class="current">0/20</div></div>
             </div>
             </div>
         </div>

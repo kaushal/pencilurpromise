@@ -5,6 +5,15 @@
 	margin-left:15%;	
 }
 
+.current {
+	margin-top:-30px;
+	margin-left:-45px;
+	font-size:15px;
+	font-style:bold;
+	font-weight:900;
+	color:#C69;
+}
+
 .hide {
 	visibility:hidden;
 }
@@ -25,10 +34,14 @@
 
 .school_view {
 	 background-image:url('../img/classroom.jpg');
+} 
+
+.shift-ex {
+	margin-left:200px;
 }
 
 .shift-down {
-	margin-top:15px;
+	margin-top:30px;
 }
 
 .shift-tab {
