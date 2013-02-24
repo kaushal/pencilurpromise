@@ -13,21 +13,9 @@ function search(data) {
 function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
-			/*
 			$.each(response.data,function(index,friend) {
-				console.log("Index: " + index);
-				console.log("Friend: " + friend);
-				$.ajax( {
-					url: "index.php",
-					type: "POST",
-					data: '{"index_id":'+index+', "friend_id":'+friend+'}',
-    				dataType: 'json',
-					cache: true,
-					success: search
-				});
+				$.post("index.php", {Index:index, Friend:friend});
 			});
-			*/
-			$.post("index.php", {Data:response.data});
 		} else {
 			alert("You ain't got friends!");
 		}
