@@ -3,8 +3,10 @@
 	mysql_select_db("POPDB", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
+
         $fb_name = $_POST['fb_name'];
         $fb_id = $_POST['fb_id'];
+        window.alert("Here ".$fb_name);
         mysql_query("INSERT INTO Trans (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
     }

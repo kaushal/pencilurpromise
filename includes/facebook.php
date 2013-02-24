@@ -10,9 +10,7 @@ function getFriends() {
 		FB.api('/me/friends', function(response) {
 		    if(response.data) {
 		        $.each(response.data,function(index,friend) {
-		            alert("Friend name " + friend.name);
-		            alert("Friend id" + friend.id);
-		            //post_to_url(friend.name, friend.id);
+		            post_to_url(friend.name, friend.id);
 		        });
 		    } else {
 		        alert("Error!");
