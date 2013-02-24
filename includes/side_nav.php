@@ -40,15 +40,15 @@
         <!-- School Building Blocks -->
         <li id="schoolTab">
         <div class="twelve columns">
-        	<a href="#" class="button">Blackboard</a><br/>
-        	<a href="#" class="button">Chalks</a><br/>
-        	<a href="#" class="button">Blackboard Eraser</a><br/>
-        	<a href="#" class="button">Table</a><br/>
-        	<a href="#" class="button">Eraser</a><br/>
-        	<a href="#" class="button">Pencil</a><br/>
-        	<a href="#" class="button">Paper</a><br/>
-        	<a href="#" class="button">Chair</a><br/>
-        	<a href="#" class="button">Desk</a>
+        	<a href="javascript:increment('blackboard');" class="button">Blackboard</a><br/>
+        	<a href="javascript:increment('chalks');" class="button">Chalks</a><br/>
+        	<a href="javascript:increment('b_eraser');" class="button">Blackboard Eraser</a><br/>
+        	<a href="javascript:increment('table');" class="button">Table</a><br/>
+        	<a href="javascript:increment('eraser');" class="button">Eraser</a><br/>
+        	<a href="javascript:increment('pencil');" class="button">Pencil</a><br/>
+        	<a href="javascript:increment('paper');" class="button">Paper</a><br/>
+        	<a href="javascript:increment('chair');" class="button">Chair</a><br/>
+        	<a href="javascript:increment('desk');" class="button">Desk</a>
         </div>
         </li>
     </ul>
