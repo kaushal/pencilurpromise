@@ -41,6 +41,10 @@
 	 background-image:url('../img/classroom.jpg');
 } 
 
+.shift {
+	margin-left:15px;
+}
+
 .shift-ex {
 	margin-left:200px;
 }

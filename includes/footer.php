@@ -2,7 +2,7 @@
     <div class="twelve columns">
     <div class="row">
 		<hr/>
-        <div class="twelve columns text-center">
+        <div class="twelve columns text-center shift">
 	        <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
 	        <script src="includes/js/lightbox.js"></script>
 	        <div id="thumbs">
