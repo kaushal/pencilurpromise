@@ -1,5 +1,5 @@
 <?php
-	$people = mysql_query("SELECT Pname, FBID FROM Trans");
+	$people = mysql_query("SELECT * FROM Trans");
 ?>
 
 <div class="row">
