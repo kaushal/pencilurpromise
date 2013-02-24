@@ -10,9 +10,11 @@
         VALUES('$fb_name', '$fb_id')");
     }
 	
-	$data = $_REQUEST['data'];
+	$data = $_REQUEST["Data"];
 	if (isset($data)) {
 		echo $data;
+	} else {
+		echo "Empty!";
 	}
 ?>
 <!DOCTYPE HTML>
