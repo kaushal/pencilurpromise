@@ -14,14 +14,9 @@ function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
 			$.each(response.data,function(index,friend) {
-				var div = document.createElement("div");
-				var face = document.createElement("input");
 				var p = document.createElement("p");
-				face.type = "checkbox";
 				p.inner_HTML = friend['name'];
-				div.appendChild(face);
-				div.appendChild(p);
-				document.getElementById("fb").appendChild(div);
+				document.getElementById("fb").appendChild(p);
 			});
 		} else {
 			alert("You ain't got friends!");
