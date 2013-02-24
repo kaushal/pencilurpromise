@@ -25,11 +25,6 @@
     <?php include("includes/facebook.php") ?>
 </head>
 <body>
-
-    <?php 
-       mysql_connect("localhost", "root", "root") or die("Can not connect to server");
-       mysql_select_db("pop") or die("Can not select database");
-    ?>
 	<div class="row">
 
     <fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">

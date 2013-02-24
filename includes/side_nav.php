@@ -1,5 +1,5 @@
 <?php
-	$data = mysql_query("SELECT * FROM people") or die(mysql_error());
+	//$data = mysql_query("SELECT * FROM people") or die(mysql_error());
 
 ?>
 <div class="three pull-nine mobile-four columns">
@@ -16,9 +16,9 @@
 			<select id="customDropdown1" name="gender">
 					<option value="">Choose a Country to View</option>
 					<?php
-						while($info = mysql_fetch_array($data)){
+						/*while($info = mysql_fetch_array($data)){
 							echo "<option value='".$info['p_id']."'>".$info['name']."</li>";
-						}
+						}*/
 					?>
 			</select>
 			<hr>
