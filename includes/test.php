@@ -6,5 +6,8 @@ if(isset($index) && isset($friend)) {
    
    echo $name;
    echo $friend;
+   return $name;
+} else {
+	return "Does not work!";
 }
 ?>

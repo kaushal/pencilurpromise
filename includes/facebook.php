@@ -7,7 +7,7 @@ FB.init({
 });
 
 function search(data) {
-	
+	console.log(data);
 }
 
 function getFriends() {
