@@ -8,11 +8,11 @@
 	<li><a href="#">
     	<fb:login-button autologoutlink="true" onlogin="OnRequestPermission();"></fb:login-button>
     </a>
-
+    <a href="javascript:getFriends()">Get Friends</a>
 </li>
 </ul>
 </section>
 </nav>
 </div>
 
-<a href="javascript:getFriends()">Get Friends</a>
+

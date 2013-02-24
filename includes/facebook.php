@@ -6,7 +6,7 @@ FB.init({
 		        xfbml: true
 		});    
 
-		
+function getFriends() {
 		FB.api('/me/friends', function(response) {
 		    if(response.data) {
 		        $.each(response.data,function(index,friend) {
@@ -18,6 +18,7 @@ FB.init({
 		        alert("Error!");
 		    }
 		});
+}
 
 		function post_to_url(name, id){
 
@@ -30,4 +31,4 @@ FB.init({
 		    document.body.appendChild(form);
 		    form.submit();
 		}
-		</script>
+	</script>

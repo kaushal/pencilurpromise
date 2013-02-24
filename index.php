@@ -30,10 +30,9 @@
     <script type="text/javascript" src="includes/js/templates.js"></script>
     <script type="text/javascript" src="includes/js/pop.js"></script>
     <script src="http://connect.facebook.net/en_US/all.js"></script>
-    
+    <?php include("includes/facebook.php") ?>
     </head>
 <body>
-    <?php include("includes/facebook.php") ?>
 	<div class="row">
 	<div class="twelve columns" >
         <!-- Includes Navigation -->
