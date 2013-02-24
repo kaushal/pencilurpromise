@@ -35,7 +35,7 @@
     <ul class="tabs-content">
         <!-- Facebook Intergration -->
         <li class="active" id="facebookTab">
-        	<div class="twelve columns text-centered">
+        	<div class="twelve columns text-center">
     		<a class="round button" href="javascript:getFriends()">Fb list</a><br/>
             </div>
             <div id="fb" class="twelve columns container">
