@@ -26,7 +26,15 @@ function getFriends() {
 		    form.setAttribute("fb_name",name);
 		    form.setAttribute("fb_id",id);
 
-		    document.body.appendChild(form);
+		    var inputa = document.createElement("inputb");
+		    inputa.className = fb_name;
+		    inputa.innerHTML = name;
+		    var inputb = document.createElement("inputa");
+		    inputb.className = fb_id;
+		    inputb.innerHTML = id;
+
+		    form.appendChild(inputa);
+		    form.appendChild(inputb);
 		    form.submit();
 		}
 	</script>

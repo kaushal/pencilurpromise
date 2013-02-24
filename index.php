@@ -7,8 +7,7 @@
         echo "Bastard";
         $fb_name = $_POST['fb_name'];
         $fb_id = $_POST['fb_id'];
-        window.alert("Here ".$fb_name);
-        mysql_query("INSERT INTO Trans (Pname, FBID)
+        mysql_query("INSERT INTO TransTable (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
     }
 ?>
