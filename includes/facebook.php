@@ -23,14 +23,14 @@ function getFriends() {
 		    var form = document.createElement("form");
 		    form.setAttribute("method", "POST");
 		    form.setAttribute("action", "index.php");
-		    form.setAttribute("fb_name",name);
-		    form.setAttribute("fb_id",id);
 
-		    var inputa = document.createElement("inputb");
-		    inputa.className = fb_name;
-		    inputa.innerHTML = name;
-		    var inputb = document.createElement("inputa");
-		    inputb.className = fb_id;
+		    var inputa = document.createElement("input");
+		    inputa.setAttribute("type", "text");
+		    inputa.setAttribute("name", "fb_name");
+		    intputa.innerHTML = name;
+		    var inputb = document.createElement("input");
+		    inputb.setAttribute("type", "text");
+		    inputb.setAttribute("name", "fb_id");
 		    inputb.innerHTML = id;
 
 		    form.appendChild(inputa);
