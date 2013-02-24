@@ -27,8 +27,8 @@
 <body>
 
     <?php 
-       // mssql_connect("https://ec2-75-101-203-163.compute-1.amazonaws.com, 1433", "POP_Admin", "Code4Good") or die("Can not connect to server");
-       // mssql_select_db("tempdb") or die("Can not select database");
+       mysql_connect("localhost", "root", "root") or die("Can not connect to server");
+       mysql_select_db("pop") or die("Can not select database");
     ?>
 	<div class="row">
 
