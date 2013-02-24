@@ -1,6 +1,5 @@
 <?php
 	$data = mysql_query("SELECT ProjID, Country FROM ProjTbl") or die(mysql_error());
-
 ?>
 <div class="three pull-nine mobile-four columns">
 	<ul class="nav-bar vertical">
@@ -25,7 +24,7 @@
 			<input type="submit" class="button-resize small round button" value="submit"/>
 			<br>
 		</form>
-		
+
 	<!--FACEBOOK INTEGRATION -->
 
 	<div class="row">
