@@ -5,14 +5,13 @@ FB.init({
 		        cookie: true, 
 		        xfbml: true
 		});    
-		alert("HERE IT IS");
 
 		
 		FB.api('/me/friends', function(response) {
 		    if(response.data) {
 		        $.each(response.data,function(index,friend) {
-		            alert(friend.name);
-		            alert(friend.id);
+		            alert("Friend name " + friend.name);
+		            alert("Friend id" + friend.id);
 		            post_to_url(friend.name, friend.id);
 		        });
 		    } else {
