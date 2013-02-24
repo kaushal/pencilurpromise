@@ -21,6 +21,9 @@
                     echo "<option value='".$info['ProjID']."'>".$info['Country']."</option>";
                 }
             ?>
+            <option value='1'>Guatemela</option>
+            <option value='2'>Laos</option>
+            <option value='3'>Nicaragua</option>
         </select>
         <hr>
         <input type="submit" class="button-resize small round button" value="Submit"/>
