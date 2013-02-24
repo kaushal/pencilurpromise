@@ -7,16 +7,16 @@
 	<title>Pencil UR Promise</title>
 
 	 <!-- Included CSS Files -->
-    <link type="text/css" rel="stylesheet" href="includes/css/templates.css" />
-    <link type="text/css" rel="stylesheet" href="includes/css/class.css" />
-    <link type="text/css" rel="stylesheet" href="includes/css/override.css" />
-    <link type="text/css" rel="stylesheet" href="includes/css/lightbox.css" />
+    <link type="text/css" rel="stylesheet" href="css/templates.css" />
+    <link type="text/css" rel="stylesheet" href="css/class.css" />
+    <link type="text/css" rel="stylesheet" href="css/override.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightbox.css" />
 
     <!-- Included JavaScript Files -->
-    <script type="text/javascript" src="includes/js/jquery.js"></script>
-    <script type="text/javascript" src="includes/js/jquery-json.js"></script>
-    <script type="text/javascript" src="includes/js/templates.js"></script>
-    <script type="text/javascript" src="includes/js/pop.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-json.js"></script>
+    <script type="text/javascript" src="js/templates.js"></script>
+    <script type="text/javascript" src="js/pop.js"></script>
     <script src="http://connect.facebook.net/en_US/all.js"></script>
 </head>
 <body>
@@ -57,6 +57,7 @@
 				<option>Help Nicaragua!</option>
 				<option>Laos needs help!</option>
 			</select>
+
 		</div>
 	</div>
 	</form>
