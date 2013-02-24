@@ -14,8 +14,10 @@ function getFriends() {
 				var check = document.createElement("input");
 				var face = document.createElement("p");
 				face.innerHTML = friend['name'];
+				face.className = "left";
 				check.type = "checkbox";
 				check.name = friend['name'];
+				check.className = "right";
 				div.className = "row";
 				div.appendChild(face);
 				div.appendChild(check);
