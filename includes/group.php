@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<form>
+	<form method="post" action="index.php">
 	<!-- Main Content -->
 	<div class="row">
 
@@ -37,13 +37,12 @@
 			
 				<input type="text" placeholder="Enter Group Name"/>
 				<input type="text" placeholder="Donation Amount"/>
-				<form method="post" action="index.php">
-			        <select id="customDropdown1" name="gender" style="width:75%">
-			            <option value="">Choose a Country to View</option>
-			            <option value='1'>Guatemela</option>
-			            <option value='2'>Laos</option>
-			            <option value='3'>Nicaragua</option>
-			        </select>
+			    <select id="customDropdown1" name="gender" style="width:100%">
+		            <option value="">Choose a Country to View</option>
+		            <option value='1'>Guatemela</option>
+		            <option value='2'>Laos</option>
+		            <option value='3'>Nicaragua</option>
+		        </select>
         <hr>
         <input type="submit" class="button-resize small round button" value="Submit"/>
 		</div>
@@ -52,7 +51,7 @@
 		<div class="six columns">
 
 			<label for="customDropdown">View an existing project</label>
-			<select style="display:none;" id="customDropdown">
+			<select id="customDropdown">
 				<option SELECTED>Project Guata</option>
 				<option>Help Nicaragua!</option>
 				<option>Laos needs help!</option>
