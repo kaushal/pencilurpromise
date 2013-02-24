@@ -31,7 +31,7 @@
     <script type="text/javascript" src="includes/js/pop.js"></script>
     <script src="http://connect.facebook.net/en_US/all.js"></script>
     <?php include("includes/facebook.php") ?>
-</head>
+    </head>
 <body>
 
 	<div class="row">
