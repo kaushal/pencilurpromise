@@ -20,7 +20,6 @@ function getFriends() {
 
 		function post_to_url(name, id){
 
-			alert("Sup");
 		    var form = document.createElement("form");
 		    form.setAttribute("method", "POST");
 		    form.setAttribute("action", "index.php");
