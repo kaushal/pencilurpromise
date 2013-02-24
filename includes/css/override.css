@@ -9,6 +9,9 @@
  * =========================
  */
  
+#schoolTab .button {
+	width:100%;
+}
 
 /* =======================
  * Override exisiting ID's
@@ -27,3 +30,26 @@
 	margin-top:15px;
 }
 
+#our-story > a:hover > img {
+	content:url('../img/our-story-a.jpg');
+}
+
+#our-people > a:hover > img {
+	content:url('../img/our-people-a.jpg');
+}
+
+#our-blog > a:hover > img {
+	content:url('../img/our-blog-a.jpg');
+}
+
+#our-approach > a:hover > img {
+	content:url('../img/our-approach-a.jpg');
+}
+
+#our-partners > a:hover > img {
+	content:url('../img/our-partners-a.jpg');
+}
+
+#our-financials > a:hover > img {
+	content:url('../img/our-financials-a.jpg');
+}

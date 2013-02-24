@@ -5,26 +5,38 @@
 	margin-left:15%;	
 }
 
+.hide {
+	visibility:hidden;
+}
+
+.show {
+	visibility:visible;
+}
+
 .sidenav_custom{
 	border:solid 1px;
 	border-color:rgb(238, 171, 0);
 	border-width:5%;
 }
 
-.scene_view {	
-	 background-image:url('../img/classroom.jpg');
+.scene_view {
+	 background-image:url('../img/paper-bg.jpg');
 }
 
 .school_view {
-	 background-image:url('http://placehold.it/800x600&text=School View');
-}
-
-.shift-up {
-	margin-top:-15px;
+	 background-image:url('../img/classroom.jpg');
 }
 
 .shift-down {
 	margin-top:15px;
+}
+
+.shift-tab {
+	margin-left:-15px;
+}
+
+.shift-up {
+	margin-top:-15px;
 }
 
 .right{

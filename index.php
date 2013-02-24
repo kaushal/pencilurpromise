@@ -1,5 +1,6 @@
 <?php 
-	$con = mysql_connect("localhost", "root") or die(mysql_error());
+	/*$con = mysql_connect("localhost", "root", "root") or die(mysql_error());
+>>>>>>> Main page: over 9000!
 	mysql_select_db("POPPER", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
@@ -7,7 +8,7 @@
         $fb_id = $_POST['fb_id'];
         mysql_query("INSERT INTO Trans (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
-    }
+    }*/
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -68,28 +69,61 @@
                 <a id="scene_trigger" class="round button" href="javascript:scene_trigger()">to School View</a>
             </div>
             
+            <!-- Scenary View Block-->
+            <div id="scenary" class="show">
+            <br/><br/><br/><br/><br/><br/>
+            <div class="twelve columns shift-down">
+            	<div id="our-story" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-story">
+                	<img src="includes/img/our-story.jpg">
+                </a></div>
+                <div id="our-people" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-people">
+                	<img src="includes/img/our-people.jpg">
+                </a></div>
+                <div id="our-blog" class="four columns">
+                <a href="http://www.pencilsofpromise.org/our-blog">
+                	<img src="includes/img/our-blog.jpg">
+                </a></div>
+            </div>
+            <div class="twelve columns shift-down">
+                <div id="our-approach" class="four columns">
+                <a href="http://www.pencilsofpromise.org/our-approach">
+                	<img src="includes/img/our-approach.jpg">
+                </a></div>
+            	<div id="our-partners" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-partners">
+                	<img src="includes/img/our-partners.jpg">
+                </a></div>
+                <div id="our-financials" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-financials">
+                	<img src="includes/img/our-financials.jpg">
+                </a>
+                </div>
+            </div>
+            </div>
+            
+            <!-- School View Block -->
+            <div id="school" class="hide">
             <div class="twelve columns"><div id="blackboard" class="six columns end">
-                <img src="includes/img/blackboard.jpg"/>
+                <a href="#"><img src="includes/img/blackboard.jpg"/></a>
             </div></div>
-            
             <div class="twelve columns shift-down">
-                <div id="chalks" class="three columns offset-by-four"><img src="includes/img/chalk.jpg"/></div>
-                <div id="b_eraser"class="three columns end"><img src="includes/img/b_eraser.jpg"/></div>
+                <div id="chalks" class="three columns offset-by-four"><a href="#"><img src="includes/img/chalk.jpg"/></a></div>
+                <div id="b_eraser"class="three columns end"><a href="#"><img src="includes/img/b_eraser.jpg"/></a></div>
             </div>
-            
             <div class="twelve columns shift-down"><div id="table" class="eight columns offset-by-four">
-                <img src="includes/img/table.jpg"/>
+                <a href="#"><img src="includes/img/table.jpg"/></a>
             </div></div>
-            
             <div class="twelve columns shift-down">
-                <div id="eraser" class="four columns offset-by-one"><img src="includes/img/eraser.jpg"/></div>
-                <div id="pencil" class="three columns"><img src="includes/img/pencil.jpg"/></div>
-                <div id="paper" class="three columns offset-by-one"><img src="includes/img/paper.jpg"/></div>
+                <div id="eraser" class="four columns offset-by-one"><a href="#"><img src="includes/img/eraser.jpg"/></a></div>
+                <div id="pencil" class="three columns"><a href="#"><img src="includes/img/pencil.jpg"/></a></div>
+                <div id="paper" class="three columns offset-by-one"><a href="#"><img src="includes/img/paper.jpg"/></a></div>
             </div>
-            
             <div class="twelve columns shift-down">
-                <div id="chair" class="five columns offset-by-two"><img src="includes/img/chair.jpg"/></div>
-                <div id="desk" class="five columns"><img src="includes/img/desk.jpg"/></div>
+                <div id="chair" class="five columns offset-by-two"><a href="#"><img src="includes/img/chair.jpg"/></a></div>
+                <div id="desk" class="five columns"><a href="#"><img src="includes/img/desk.jpg"/></a></div>
+            </div>
             </div>
         </div>
     </div>
