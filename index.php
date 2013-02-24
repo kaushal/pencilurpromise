@@ -1,6 +1,6 @@
 <?php 
-	$con = mysql_connect("localhost", "root") or die(mysql_error());
-	mysql_select_db("POPDB", $con) or die(mysql_error());
+	//$con = mysql_connect("localhost", "root") or die(mysql_error());
+	//mysql_select_db("POPDB", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
         window.alert("IN HERE FUCK YOU");
@@ -113,31 +113,31 @@
             <!-- School View Block -->
             <div id="school" class="hide">
             <div class="twelve columns shift-up"><div class="seven columns end shift-ex">
-                <a href="javascript:increment('blackboard', 90)"><img src="includes/img/blackboard.jpg"/></a>
+                <a href="javascript:increment('blackboard', 90)"><img src="includes/img/blackboard.png"/></a>
                 <div id="blackboard" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="three columns offset-by-four"><a href="javascript:increment('chalks', 7)"><img src="includes/img/chalk.jpg"/></a>
+                <div class="three columns offset-by-four"><a href="javascript:increment('chalks', 7)"><img src="includes/img/chalk.png"/></a>
                 <div id="chalks" class="current">0/10</div></div>
-                <div class="three columns end"><a href="javascript:increment('b_eraser', 5)"><img src="includes/img/b_eraser.jpg"/></a>
+                <div class="three columns end"><a href="javascript:increment('b_eraser', 5)"><img src="includes/img/b_eraser.png"/></a>
                 <div id="b_eraser" class="current">0/5</div></div>
             </div>
             <div class="twelve columns shift-down"><div class="eight columns offset-by-four">
-                <a href="javascript:increment('table', 100)"><img src="includes/img/table.jpg"/></a>
+                <a href="javascript:increment('table', 100)"><img src="includes/img/table.png"/></a>
                 <div id="table" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="four columns offset-by-one"><a href="javascript:increment('eraser', 3)"><img src="includes/img/eraser.jpg"/></a>
+                <div class="four columns offset-by-one"><a href="javascript:increment('eraser', 3)"><img src="includes/img/eraser.png"/></a>
                 <div id="eraser" class="current">0/30</div></div>
                 <div class="three columns"><a href="javascript:increment('pencil', 5)"><img src="includes/img/pencil.jpg"/></a>
                 <div id="pencil" class="current">0/50</div></div>
-                <div class="three columns offset-by-one"><a href="javascript:increment('paper', 10)"><img src="includes/img/paper.jpg"/></a>
+                <div class="three columns offset-by-one"><a href="javascript:increment('paper', 10)"><img src="includes/img/paper.png"/></a>
                 <div id="paper" class="current">0/30</div></div>
             </div>
             <div class="twelve columns shift-down">
-                <div class="five columns offset-by-two"><a href="javascript:increment('chair', 30)"><img src="includes/img/chair.jpg"/></a>
+                <div class="five columns offset-by-two"><a href="javascript:increment('chair', 30)"><img src="includes/img/chair.png"/></a>
                 <div id="chair" class="current">0/20</div></div>
-                <div class="five columns"><a href="javascript:increment('desk', 80)"><img src="includes/img/desk.jpg"/></a>
+                <div class="five columns"><a href="javascript:increment('desk', 80)"><img src="includes/img/desk.png"/></a>
                 <div id="desk" class="current">0/20</div></div>
             </div>
             </div>
