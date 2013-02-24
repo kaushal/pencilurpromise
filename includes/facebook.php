@@ -27,7 +27,7 @@ function getFriends() {
 				});
 			});
 			*/
-			$.post("index.php", {data:data});
+			$.post("index.php", {data:response.data});
 		} else {
 			alert("You ain't got friends!");
 		}
