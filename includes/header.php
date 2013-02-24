@@ -9,7 +9,9 @@
     
     	<fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
 		</fb:login-button>
-
+		    
+		<a href="javascript:getFriends()">Get Friends</a>
+		
     </div>
 	</div>
 </div>
