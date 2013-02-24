@@ -1,6 +1,6 @@
 <?php 
-	$con = mysql_connect("localhost", "root") or die(mysql_error());
-	mysql_select_db("POPDB", $con) or die(mysql_error());
+	//$con = mysql_connect("localhost", "root") or die(mysql_error());
+	//mysql_select_db("POPDB", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
         window.alert("IN HERE FUCK YOU");
