@@ -1,6 +1,13 @@
 <?php 
-	//mysql_connect("localhost", "root", "root") or die(mysql_error());
-	//mysql_select_db("PoP") or die(mysql_error());
+	$con = mysql_connect("kaushalp88@karthik.com", "kaushalp88", "code4good") or die(mysql_error());
+	mysql_select_db("POPDB", $con) or die(mysql_error());
+    
+    if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
+        $fb_name = $_POST['fb_name'];
+        $fb_id = $_POST['fb_id'];
+        mysql_query("INSERT INTO Trans (Pname, FBID)
+        VALUES('$fb_name', '$fb_id')");
+    }
 ?>
 <!DOCTYPE HTML>
 <html>
