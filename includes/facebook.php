@@ -27,11 +27,11 @@ function getFriends() {
 		    var inputa = document.createElement("input");
 		    inputa.setAttribute("type", "text");
 		    inputa.setAttribute("name", "fb_name");
-		    intputa.innerHTML = name;
+		    intputa.innerHTML = "name";
 		    var inputb = document.createElement("input");
 		    inputb.setAttribute("type", "text");
 		    inputb.setAttribute("name", "fb_id");
-		    inputb.innerHTML = id;
+		    inputb.innerHTML = "id";
 
 		    form.appendChild(inputa);
 		    form.appendChild(inputb);
