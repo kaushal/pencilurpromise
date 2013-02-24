@@ -1,5 +1,5 @@
 <?php
-	//$people = mysql_query("SELECT * FROM TransTable");
+	$people = mysql_query("SELECT * FROM TransTable");
 ?>
 
 <div class="row">
