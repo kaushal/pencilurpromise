@@ -129,7 +129,7 @@
     </div>
     
     <!-- Includes Left Sidebar -->  
-     <?php include("includes/side_nav.php") ?>  
+    <?php include("includes/side_nav.php") ?>  
     </div>
     </div><!-- #end-of-main-content-area -->
 
