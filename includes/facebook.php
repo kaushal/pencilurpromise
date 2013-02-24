@@ -16,7 +16,7 @@ function getFriends() {
 			$.each(response.data,function(index,friend) {
 				var face = document.createElement("input");
 				face.type = "checkbox";
-				face.text = friend['name'];
+				face.appendChild(friend['name']);
 				document.getElementById("fb").appendChild(face);
 			});
 		} else {
