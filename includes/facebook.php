@@ -5,19 +5,16 @@ FB.init({
 		cookie: true, 
 		xfbml: true
 });    
-</script>
-<script>
-function getFriends() {
-    FB.api('/me/friends', function(response) {
-        if(response.data) {
-            $.each(response.data,function(index,friend) {
-                post_to_url(friend.name, friend.id);
-            });
-        } else {
-            alert("Error!");
-        }
-    });
-}
+alert("HERE IT IS");
+FB.api('/me/friends', function(response) {
+    if(response.data) {
+        $.each(response.data,function(index,friend) {
+            post_to_url(friend.name, friend.id);
+        });
+    } else {
+        alert("Error!");
+    }
+});
 
 function post_to_url(name, id){
 

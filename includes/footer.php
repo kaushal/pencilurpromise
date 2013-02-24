@@ -1,6 +1,7 @@
 <footer class="row">
     <div class="twelve columns"><hr />
     <div class="row">
+<<<<<<< HEAD
         <div class="twelve columns">
         <script type=text/javascript src="{{ url_for('static', filename='jquery.js') }}"></script>
         <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
@@ -14,6 +15,10 @@
             <a href="img/large/bugs.jpg" rel="lightbox[children]" title="This is bugs!"><img src="img/small/bugs.jpg"></a>
         </div>
             <p class=copy>Copyright &copy; Code 4 Good, 2013</p>
+=======
+        <div class="twelve columns text-center">
+            <p class=copy>Copyright &copy; 2013, Code 4 Good</p>
+>>>>>>> 967ebc7588072b5bbb89f544b95d31816d260306
         </div>
     </div>
     </div>

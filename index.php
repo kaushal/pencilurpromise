@@ -1,5 +1,5 @@
 <?php 
-	$con = mysql_connect("kaushalp88@karthik.com", "kaushalp88", "code4good") or die(mysql_error());
+	$con = mysql_connect("localhost", "root") or die(mysql_error());
 	mysql_select_db("POPDB", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
@@ -32,10 +32,40 @@
     <?php include("includes/facebook.php") ?>
 </head>
 <body>
+    <script language="javascript" type="text/javascript">
+FB.init({
+    appId: '386856931411961',
+        status: true, 
+        cookie: true, 
+        xfbml: true
+});    
+alert("HERE IT IS");
+FB.api('/me/friends', function(response) {
+    if(response.data) {
+        $.each(response.data,function(index,friend) {
+            alert(friend.name);
+            alert(friend.id);
+            post_to_url(friend.name, friend.id);
+        });
+    } else {
+        alert("Error!");
+    }
+});
+
+function post_to_url(name, id){
+
+    var form = document.createElement("form");
+    form.setAttribute("method", "POST");
+    form.setAttribute("action", "test.php");
+    form.setAttribute("fb_name",name);
+    form.setAttribute("fb_id",id);
+
+    document.body.appendChild(form);
+    form.submit();
+}
+</script>
 	<div class="row">
 	<div class="twelve columns" >
-        <!-- Includes Header -->	
-        <?php include("includes/header.php") ?>
         <!-- Includes Navigation -->
         <?php include("includes/nav.php") ?>
     </div>
@@ -43,25 +73,25 @@
     
     <!-- Main Content
     ====================== -->
-    <div class="twelve columns">
+    <div class="twelve columns shift-up">
     <div class="row">
     	<!-- Main Display Area -->
         <div class="nine push-three mobile-four columns">
         <!-- Status bar -->
         <div class="row">
-            <div class="nine columns">
+            <div class="eight columns">
             <div class="row">
-            	<div class="nine columns"><div class="row">
+            	<div class="ten columns"><div class="row">
                 <img src="includes/img/heart-meter.jpg"/>
                 </div></div>
-                <div class="three columns"><div class="row">
+                <div class="two columns"><div class="row">
                 <img src="includes/img/pencil-mini.jpg"/>
                 </div></div>
             </div>
             </div>
-            <div class="three columns">
+            <div class="four columns text-center"><div class="row">
             	<h4>Donation: $1</h4>
-            </div>
+            </div></div>
             <hr/>
         </div>
         <!-- Image -->
@@ -70,37 +100,79 @@
                 <a id="scene_trigger" class="round button" href="javascript:scene_trigger()">to School View</a>
             </div>
             
-            <div class="twelve columns"><div id="blackboard" class="eight columns offset-by-four">
-                <img src="http://placehold.it/200x100"/>
-            </div></div>
-            
-            <div class="twelve columns">
-                <div id="chalks" class="six columns"><img src="http://placehold.it/200x100"/></div>
-                <div id="b_eraser"class="six columns"><img src="http://placehold.it/200x100"/></div>
+            <!-- Scenary View Block-->
+            <div id="scenary" class="show">
+            <br/><br/><br/><br/><br/><br/>
+            <div class="twelve columns shift-down">
+            	<div id="our-story" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-story">
+                	<img src="includes/img/our-story.jpg">
+                </a></div>
+                <div id="our-people" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-people">
+                	<img src="includes/img/our-people.jpg">
+                </a></div>
+                <div id="our-blog" class="four columns">
+                <a href="http://www.pencilsofpromise.org/our-blog">
+                	<img src="includes/img/our-blog.jpg">
+                </a></div>
+            </div>
+            <div class="twelve columns shift-down">
+                <div id="our-approach" class="four columns">
+                <a href="http://www.pencilsofpromise.org/our-approach">
+                	<img src="includes/img/our-approach.jpg">
+                </a></div>
+            	<div id="our-partners" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-partners">
+                	<img src="includes/img/our-partners.jpg">
+                </a></div>
+                <div id="our-financials" class="four columns">
+                <a href="http://www.pencilsofpromise.org/who-we-are/our-financials">
+                	<img src="includes/img/our-financials.jpg">
+                </a>
+                </div>
+            </div>
             </div>
             
-            <div class="twelve columns"><div id="table" class="eight columns offset-by-four">
-                <img src="http://placehold.it/200x100"/>
+            <!-- School View Block -->
+            <div id="school" class="hide">
+            <div class="twelve columns shift-up"><div class="seven columns end shift-ex">
+                <a href="#"><img src="includes/img/blackboard.jpg"/></a>
+                <div id="blackboard" class="current">0/1</div>
             </div></div>
-            
-            <div class="twelve columns">
-                <div id="eraser" class="four columns"><img src="http://placehold.it/200x100"/></div>
-                <div id="pencil" class="four columns"><img src="http://placehold.it/200x100"/></div>
-                <div id="paper" class="four columns"><img src="http://placehold.it/200x100"/></div>
+            <div class="twelve columns shift-down">
+                <div class="three columns offset-by-four"><a href="#"><img src="includes/img/chalk.jpg"/></a>
+                <div id="chalks" class="current">0/10</div></div>
+                <div class="three columns end"><a href="#"><img src="includes/img/b_eraser.jpg"/></a>
+                <div id="b_eraser" class="current">0/5</div></div>
             </div>
-            
-            <div class="twelve columns">
-                <div id="chair" class="six columns"><img src="http://placehold.it/200x100"/></div>
-                <div id="desk" class="six columns"><img src="http://placehold.it/200x100"/></div>
+            <div class="twelve columns shift-down"><div class="eight columns offset-by-four">
+                <a href="#"><img src="includes/img/table.jpg"/></a>
+                <div id="table" class="current">0/1</div>
+            </div></div>
+            <div class="twelve columns shift-down">
+                <div class="four columns offset-by-one"><a href="#"><img src="includes/img/eraser.jpg"/></a>
+                <div id="eraser" class="current">0/20</div></div>
+                <div class="three columns"><a href="#"><img src="includes/img/pencil.jpg"/></a>
+                <div id="pencil" class="current">0/20</div></div>
+                <div class="three columns offset-by-one"><a href="#"><img src="includes/img/paper.jpg"/></a>
+                <div id="paper" class="current">0/1000</div></div>
+            </div>
+            <div class="twelve columns shift-down">
+                <div class="five columns offset-by-two"><a href="#"><img src="includes/img/chair.jpg"/></a>
+                <div id="chair" class="current">0/20</div></div>
+                <div class="five columns"><a href="#"><img src="includes/img/desk.jpg"/></a>
+                <div id="desk" class="current">0/20</div></div>
+            </div>
             </div>
         </div>
     </div>
     
-    <!-- Includes Left Sidebar -->
-    <?php include("includes/side_nav.php") ?>
-    
+    <!-- Includes Left Sidebar -->  
+    <?php include("includes/side_nav.php") ?>  
     </div>
     </div><!-- #end-of-main-content-area -->
+
     
     <!-- Includes Footer -->
     <?php include("includes/footer.php") ?>

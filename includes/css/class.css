@@ -1,29 +1,61 @@
-/*Css for side navigation*/
 .button-resize{
 	width:60%;
-	background-color: rgb(238, 171, 0); 
-	border-color: rgb(238, 171, 0);
-	margin-left: 15%;	
+	background-color:rgb(238, 171, 0); 
+	border-color:rgb(238, 171, 0);
+	margin-left:15%;	
+}
+
+.current {
+	margin-top:-30px;
+	margin-left:-45px;
+	font-size:15px;
+	font-style:bold;
+	font-weight:900;
+	color:#C69;
+}
+
+.hide {
+	visibility:hidden;
+}
+
+.show {
+	visibility:visible;
 }
 
 .sidenav_custom{
 	border:solid 1px;
-	border-color: rgb(238, 171, 0);
-	border-width: 5%;
+	border-color:rgb(238, 171, 0);
+	border-width:5%;
 }
-/*end of side navigation*/
 
-.scene_view {	
-	 background-image:url('http://placehold.it/800x600&text=Scenary View');
+.scene_view {
+	 background-image:url('../img/paper-bg.jpg');
 }
 
 .school_view {
-	 background-image:url('http://placehold.it/800x600&text=School View');
+	 background-image:url('../img/classroom.jpg');
+} 
+
+.shift-ex {
+	margin-left:200px;
+}
+
+.shift-down {
+	margin-top:30px;
+}
+
+.shift-tab {
+	margin-left:-15px;
+}
+
+.shift-up {
+	margin-top:-15px;
 }
 
 .right{
 	float:right;
 }
+
 .left{
 	float:left;
 }
