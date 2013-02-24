@@ -1,6 +1,5 @@
 <?php 
-	/*$con = mysql_connect("localhost", "root", "root") or die(mysql_error());
->>>>>>> Main page: over 9000!
+	/con = mysql_connect("localhost", "root", "root") or die(mysql_error());
 	mysql_select_db("POPPER", $con) or die(mysql_error());
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
@@ -8,7 +7,7 @@
         $fb_id = $_POST['fb_id'];
         mysql_query("INSERT INTO Trans (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
-    }*/
+    }
 ?>
 <!DOCTYPE HTML>
 <html>
