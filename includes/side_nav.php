@@ -34,9 +34,6 @@
     <ul class="tabs-content">
         <!-- Facebook Intergration -->
         <li class="active" id="facebookTab">
-        <div class="row">
-			<?php include 'side_fb.php' ?>
-        </div>
         </li>
         <!-- School Building Blocks -->
         <li id="schoolTab">
@@ -53,6 +50,12 @@
         </div>
         </li>
     </ul>
+
+    <div class="row">
+    	Fb list:
+			<?php include 'side_fb.php' ?>
+    </div>
+
     
 </div>
 </div>
