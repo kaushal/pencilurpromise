@@ -28,7 +28,7 @@
 		</div>
 	</div>
 
-	<form method="post" action="index.php">
+	<form method="post" action="../index.php">
 	<!-- Main Content -->
 	<div class="row">
 

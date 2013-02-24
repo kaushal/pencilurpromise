@@ -129,7 +129,7 @@
             <div class="twelve columns shift-down">
                 <div class="four columns offset-by-one"><a href="javascript:increment('eraser', 3)"><img src="includes/img/eraser.png"/></a>
                 <div id="eraser" class="current">0/30</div></div>
-                <div class="three columns"><a href="javascript:increment('pencil', 5)"><img src="includes/img/pencil.jpg"/></a>
+                <div class="three columns"><a href="javascript:increment('pencil', 5)"><img src="includes/img/pencil.png"/></a>
                 <div id="pencil" class="current">0/50</div></div>
                 <div class="three columns offset-by-one"><a href="javascript:increment('paper', 10)"><img src="includes/img/paper.png"/></a>
                 <div id="paper" class="current">0/30</div></div>
