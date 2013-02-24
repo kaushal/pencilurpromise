@@ -1,29 +1,36 @@
-/*Css for side navigation*/
 .button-resize{
 	width:60%;
-	background-color: rgb(238, 171, 0); 
-	border-color: rgb(238, 171, 0);
-	margin-left: 15%;	
+	background-color:rgb(238, 171, 0); 
+	border-color:rgb(238, 171, 0);
+	margin-left:15%;	
 }
 
 .sidenav_custom{
 	border:solid 1px;
-	border-color: rgb(238, 171, 0);
-	border-width: 5%;
+	border-color:rgb(238, 171, 0);
+	border-width:5%;
 }
-/*end of side navigation*/
 
 .scene_view {	
-	 background-image:url('http://placehold.it/800x600&text=Scenary View');
+	 background-image:url('../img/classroom.jpg');
 }
 
 .school_view {
 	 background-image:url('http://placehold.it/800x600&text=School View');
 }
 
+.shift-up {
+	margin-top:-15px;
+}
+
+.shift-down {
+	margin-top:15px;
+}
+
 .right{
 	float:right;
 }
+
 .left{
 	float:left;
 }
