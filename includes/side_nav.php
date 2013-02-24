@@ -41,15 +41,15 @@
         <!-- School Building Blocks -->
         <li id="schoolTab">
         <div class="twelve columns">
-        	<a href="javascript:increment('blackboard');" class="button">Blackboard</a><br/>
-        	<a href="javascript:increment('chalks');" class="button">Chalks</a><br/>
-        	<a href="javascript:increment('b_eraser');" class="button">Blackboard Eraser</a><br/>
-        	<a href="javascript:increment('table');" class="button">Table</a><br/>
-        	<a href="javascript:increment('eraser');" class="button">Eraser</a><br/>
-        	<a href="javascript:increment('pencil');" class="button">Pencil</a><br/>
-        	<a href="javascript:increment('paper');" class="button">Paper</a><br/>
-        	<a href="javascript:increment('chair');" class="button">Chair</a><br/>
-        	<a href="javascript:increment('desk');" class="button">Desk</a>
+        	<a href="javascript:increment('blackboard', 90);" class="button">Blackboard</a><br/>
+        	<a href="javascript:increment('chalks', 7);" class="button">Chalks</a><br/>
+        	<a href="javascript:increment('b_eraser', 5);" class="button">Blackboard Eraser</a><br/>
+        	<a href="javascript:increment('table', 100);" class="button">Table</a><br/>
+        	<a href="javascript:increment('eraser', 3);" class="button">Eraser</a><br/>
+        	<a href="javascript:increment('pencil', 5);" class="button">Pencil</a><br/>
+        	<a href="javascript:increment('paper', 10);" class="button">Books</a><br/>
+        	<a href="javascript:increment('chair', 30);" class="button">Chair</a><br/>
+        	<a href="javascript:increment('desk', 80);" class="button">Desk</a>
         </div>
         </li>
     </ul>

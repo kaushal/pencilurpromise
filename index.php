@@ -51,16 +51,17 @@
         <div class="row">
             <div class="eight columns">
             <div class="row">
-            	<div class="ten columns"><div class="row">
-                <img src="includes/img/heart-meter.jpg"/>
+            	<div id="heart" class="hide"><div class="row">
+                <img id="heart_img" src="includes/img/heart-meter.jpg"/>
+                <input id="heart_meter" type="hidden" value="0" />
                 </div></div>
-                <div class="two columns"><div class="row">
+                <div class="two columns end"><div class="row">
                 <img src="includes/img/pencil-mini.jpg"/>
                 </div></div>
             </div>
             </div>
             <div class="four columns text-center"><div class="row">
-            	<h4>Donation: $1</h4>
+            	<h4 id="donated_amount">Donation: $0</h4>
             </div></div>
             <hr/>
         </div>
@@ -112,31 +113,31 @@
             <!-- School View Block -->
             <div id="school" class="hide">
             <div class="twelve columns shift-up"><div class="seven columns end shift-ex">
-                <a href="javascript:increment('blackboard')"><img src="includes/img/blackboard.jpg"/></a>
+                <a href="javascript:increment('blackboard', 90)"><img src="includes/img/blackboard.jpg"/></a>
                 <div id="blackboard" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="three columns offset-by-four"><a href="javascript:increment('chalks')"><img src="includes/img/chalk.jpg"/></a>
+                <div class="three columns offset-by-four"><a href="javascript:increment('chalks', 7)"><img src="includes/img/chalk.jpg"/></a>
                 <div id="chalks" class="current">0/10</div></div>
-                <div class="three columns end"><a href="javascript:increment('b_eraser')"><img src="includes/img/b_eraser.jpg"/></a>
+                <div class="three columns end"><a href="javascript:increment('b_eraser', 5)"><img src="includes/img/b_eraser.jpg"/></a>
                 <div id="b_eraser" class="current">0/5</div></div>
             </div>
             <div class="twelve columns shift-down"><div class="eight columns offset-by-four">
-                <a href="javascript:increment('table')"><img src="includes/img/table.jpg"/></a>
+                <a href="javascript:increment('table', 100)"><img src="includes/img/table.jpg"/></a>
                 <div id="table" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="four columns offset-by-one"><a href="javascript:increment('eraser')"><img src="includes/img/eraser.jpg"/></a>
-                <div id="eraser" class="current">0/20</div></div>
-                <div class="three columns"><a href="javascript:increment('pencil')"><img src="includes/img/pencil.jpg"/></a>
-                <div id="pencil" class="current">0/20</div></div>
-                <div class="three columns offset-by-one"><a href="javascript:increment('paper')"><img src="includes/img/paper.jpg"/></a>
-                <div id="paper" class="current">0/1000</div></div>
+                <div class="four columns offset-by-one"><a href="javascript:increment('eraser', 3)"><img src="includes/img/eraser.jpg"/></a>
+                <div id="eraser" class="current">0/30</div></div>
+                <div class="three columns"><a href="javascript:increment('pencil', 5)"><img src="includes/img/pencil.jpg"/></a>
+                <div id="pencil" class="current">0/50</div></div>
+                <div class="three columns offset-by-one"><a href="javascript:increment('paper', 10)"><img src="includes/img/paper.jpg"/></a>
+                <div id="paper" class="current">0/30</div></div>
             </div>
             <div class="twelve columns shift-down">
-                <div class="five columns offset-by-two"><a href="javascript:increment('chair')"><img src="includes/img/chair.jpg"/></a>
+                <div class="five columns offset-by-two"><a href="javascript:increment('chair', 30)"><img src="includes/img/chair.jpg"/></a>
                 <div id="chair" class="current">0/20</div></div>
-                <div class="five columns"><a href="javascript:increment('desk')"><img src="includes/img/desk.jpg"/></a>
+                <div class="five columns"><a href="javascript:increment('desk', 80)"><img src="includes/img/desk.jpg"/></a>
                 <div id="desk" class="current">0/20</div></div>
             </div>
             </div>
