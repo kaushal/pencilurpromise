@@ -28,12 +28,13 @@
 		</div>
 	</div>
 
+	<form>
 	<!-- Main Content -->
 	<div class="row">
 
 		<!-- Create new group -->
 		<div class="six columns">
-			<form>
+			
 				<input type="text" placeholder="Enter Group Name"/>
 				<input type="text" placeholder="Donation Amount"/>
 				<form method="post" action="index.php">
@@ -45,14 +46,20 @@
 			        </select>
         <hr>
         <input type="submit" class="button-resize small round button" value="Submit"/>
-	</form>
-			</form>
 		</div>
 
 		<!-- Choose from existing groups -->
 		<div class="six columns">
+
+			<label for="customDropdown">View an existing project</lable>
+			<select style="display:none;" id="customDropdown">
+				<option SELECTED>Project Guata</option>
+				<option>Help Nicaragua!</option>
+				<option>Laos needs help!</option>
+			</select>
 		</div>
 	</div>
+	</form>
 
 </body>
 
