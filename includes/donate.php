@@ -39,20 +39,19 @@
 
 					<!-- Create new group -->
 			<div class="six columns">
-				<input type="text" placeholder="Donation Amount"/>
+				<div class="row">
+				<input type="text" placeholder="Please enter donation Amount"/>
+				</div>
+				<div class="row">
+					<a href="../index.php"><input type="submit" class="button-resize small round button" value="Submit"/></a>
+				</div>
 			</div>
+
 		</div>
 	</form>
 	</div>
 	</div>
-	<h3>Master Name</h3>
-
-	<?php
-		while($info = mysql_fetch_array($query)){
-			echo "1. ".$info[Pname]." Transaction Amount: ";
-		}
-	?>
-
+	
 	<div class="row text-center">
 		<p class=copy>Copyright &copy; 2013, Code 4 Good!</p>
 	</div>
