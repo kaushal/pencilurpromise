@@ -1,5 +1,5 @@
 <?php
-	$data = mysql_query("SELECT ProjID, Country FROM ProjTbl") or die(mysql_error());
+	//$data = mysql_query("SELECT ProjID, Country FROM ProjTbl") or die(mysql_error());
 ?>
 <div class="three pull-nine mobile-four columns">
 <div class="shift-tab">
