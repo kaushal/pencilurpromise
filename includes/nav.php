@@ -10,8 +10,9 @@
     </a>
 
 </li>
-<a href="javascript:getFriends()">Get Friends</a>
 </ul>
 </section>
 </nav>
 </div>
+
+<a href="javascript:getFriends()">Get Friends</a>
