@@ -25,7 +25,7 @@ function scene_trigger() {
 	var desk = document.getElementById('desk');
 	
 	if (trigger.innerHTML == 'to School View') {
-		trigger.innerHTML = 'to Scenary View';
+		trigger.innerHTML = 'to Scenery View';
 		scene.className = 'row school_view';
 		set_image('hidden');
 	} else {
