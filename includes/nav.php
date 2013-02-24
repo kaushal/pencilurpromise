@@ -7,7 +7,8 @@
 <ul class="right">
 	<li><a href="#">
     	<fb:login-button autologoutlink="true" onlogin="OnRequestPermission();"></fb:login-button>
-    </a></li>
+    </a>
+</li>
 </ul>
 </section>
 </nav>

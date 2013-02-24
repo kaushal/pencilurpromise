@@ -5,9 +5,8 @@ FB.init({
 		cookie: true, 
 		xfbml: true
 });    
-
+alert("HERE IT IS");
 FB.api('/me/friends', function(response) {
-	alert("HERE IT IS " + response.length());
     if(response.data) {
         $.each(response.data,function(index,friend) {
             post_to_url(friend.name, friend.id);
