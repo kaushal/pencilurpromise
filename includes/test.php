@@ -1,9 +1,10 @@
 <?php
+$index = $_POST['index_id'];
+$friend = $_POST['friend_id'];
 
-	if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
-		$fb_name = $_POST['fb_name'];
-		$fb_id = $_POST['fb_id'];
-		mysql_query("INSERT INTO Trans (Pname, FBID)
-		VALUES('$fb_name', '$fb_id')");
-	}
+if(isset($index) && isset($friend)) {
+   
+   echo $name;
+   echo $friend;
+}
 ?>
