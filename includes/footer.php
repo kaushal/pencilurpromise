@@ -6,7 +6,6 @@
 	        <script type=text/javascript src="{{ url_for('static', filename='jquery.js') }}"></script>
 	        <script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
 	        <script src="js/lightbox.js"></script>
-	        <link href="css/lightbox.css" rel="stylesheet" />
 	        <div id="thumbs">
 	            <a href="../img/large/toystory.jpg" rel="lightbox[children]" title="This is Toy Story!"><img src="img/small/toystory.jpg"></a>
 	            <a href="../img/large/up.jpg" rel="lightbox[children]" title="This is up!"><img src="img/small/up.jpg"></a>
