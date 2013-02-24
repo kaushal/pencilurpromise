@@ -24,7 +24,7 @@
     <link type="text/css" rel="stylesheet" href="includes/css/templates.css" />
     <link type="text/css" rel="stylesheet" href="includes/css/class.css" />
     <link type="text/css" rel="stylesheet" href="includes/css/override.css" />
-    <link type="text/css" rel="stylesheet" href="css/lightbox.css" />
+    <link type="text/css" rel="stylesheet" href="includes/css/lightbox.css" />
 
     <!-- Included JavaScript Files -->
     <script type="text/javascript" src="includes/js/jquery.js"></script>
