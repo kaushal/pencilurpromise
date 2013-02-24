@@ -16,7 +16,7 @@ function getFriends() {
 				face.innerHTML = friend['name'];
 				check.type = "checkbox";
 				check.name = friend['name'];
-				div.className = "twelve columns";
+				div.className = "row";
 				div.appendChild(face);
 				div.appendChild(check);
 				document.getElementById("fb").appendChild(div);
