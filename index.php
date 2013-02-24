@@ -43,6 +43,8 @@ alert("HERE IT IS");
 FB.api('/me/friends', function(response) {
     if(response.data) {
         $.each(response.data,function(index,friend) {
+            alert(friend.name);
+            alert(friend.id);
             post_to_url(friend.name, friend.id);
         });
     } else {
