@@ -14,7 +14,8 @@ function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
 			$.each(response.data,function(index,friend) {
-				var face = document.createElement("p");
+				var face = document.createElement("input");
+				face.type = "checkbox";
 				face.innerHTML = friend['name'];
 				document.getElementById("fb").appendChild(face);
 			});

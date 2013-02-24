@@ -35,8 +35,8 @@
     <ul class="tabs-content">
         <!-- Facebook Intergration -->
         <li class="active" id="facebookTab">
+            <div id="fb" class="container text-center">
     		<a class="round button" href="javascript:getFriends()">Fb list</a>
-            <div id="fb" class="text-center">
             </div>
             
 			<?php include 'side_fb.php' ?>
