@@ -12,8 +12,9 @@
 		</li>
 	</ul>
     <hr>
+    <div class="text-center">
     <form method="post" action="index.php">
-        <select id="customDropdown1" name="gender">
+        <select id="customDropdown1" name="gender" style="width:75%">
             <option value="">Choose a Country to View</option>
             <?php
                 /*while($info = mysql_fetch_array($data)){
@@ -22,9 +23,9 @@
             ?>
         </select>
         <hr>
-        <input type="submit" class="button-resize small round button" value="submit"/>
-        <br>
+        <input type="submit" class="button-resize small round button" value="Submit"/>
 	</form>
+    </div>
 	<!-- Sidebar Tabs -->
     <dl class="tabs">
         <dd class="active"><a href="#facebook">Facebook</a></dd>

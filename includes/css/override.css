@@ -11,13 +11,18 @@
  
 #schoolTab .button {
 	width:100%;
+	margin-top:2px;
 }
 
 /* =======================
  * Override exisiting ID's
  * =======================
  */
- 
+#reset_button {
+	margin-top:15px;
+	margin-left:15px;
+}
+
 #scene_wrapper {
 	height:600px;
 }

@@ -67,7 +67,12 @@
         <!-- Image -->
         <div id="scene_wrapper" class="row scene_view">
             <div class="twelve columns">
+            	<div class="ten columns">
                 <a id="scene_trigger" class="round button" href="javascript:scene_trigger()">to School View</a>
+                </div>
+                <div id="reset" class="two columns hide">
+                <a id="reset_button" class="round button" href="javascript:reset_all()">Reset</a>
+                </div>
             </div>
             
             <!-- Scenary View Block-->
@@ -107,31 +112,31 @@
             <!-- School View Block -->
             <div id="school" class="hide">
             <div class="twelve columns shift-up"><div class="seven columns end shift-ex">
-                <a href="#"><img src="includes/img/blackboard.jpg"/></a>
+                <a href="javascript:increment('blackboard')"><img src="includes/img/blackboard.jpg"/></a>
                 <div id="blackboard" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="three columns offset-by-four"><a href="#"><img src="includes/img/chalk.jpg"/></a>
+                <div class="three columns offset-by-four"><a href="javascript:increment('chalks')"><img src="includes/img/chalk.jpg"/></a>
                 <div id="chalks" class="current">0/10</div></div>
-                <div class="three columns end"><a href="#"><img src="includes/img/b_eraser.jpg"/></a>
+                <div class="three columns end"><a href="javascript:increment('b_eraser')"><img src="includes/img/b_eraser.jpg"/></a>
                 <div id="b_eraser" class="current">0/5</div></div>
             </div>
             <div class="twelve columns shift-down"><div class="eight columns offset-by-four">
-                <a href="#"><img src="includes/img/table.jpg"/></a>
+                <a href="javascript:increment('table')"><img src="includes/img/table.jpg"/></a>
                 <div id="table" class="current">0/1</div>
             </div></div>
             <div class="twelve columns shift-down">
-                <div class="four columns offset-by-one"><a href="#"><img src="includes/img/eraser.jpg"/></a>
+                <div class="four columns offset-by-one"><a href="javascript:increment('eraser')"><img src="includes/img/eraser.jpg"/></a>
                 <div id="eraser" class="current">0/20</div></div>
-                <div class="three columns"><a href="#"><img src="includes/img/pencil.jpg"/></a>
+                <div class="three columns"><a href="javascript:increment('pencil')"><img src="includes/img/pencil.jpg"/></a>
                 <div id="pencil" class="current">0/20</div></div>
-                <div class="three columns offset-by-one"><a href="#"><img src="includes/img/paper.jpg"/></a>
+                <div class="three columns offset-by-one"><a href="javascript:increment('paper')"><img src="includes/img/paper.jpg"/></a>
                 <div id="paper" class="current">0/1000</div></div>
             </div>
             <div class="twelve columns shift-down">
-                <div class="five columns offset-by-two"><a href="#"><img src="includes/img/chair.jpg"/></a>
+                <div class="five columns offset-by-two"><a href="javascript:increment('chair')"><img src="includes/img/chair.jpg"/></a>
                 <div id="chair" class="current">0/20</div></div>
-                <div class="five columns"><a href="#"><img src="includes/img/desk.jpg"/></a>
+                <div class="five columns"><a href="javascript:increment('desk')"><img src="includes/img/desk.jpg"/></a>
                 <div id="desk" class="current">0/20</div></div>
             </div>
             </div>
