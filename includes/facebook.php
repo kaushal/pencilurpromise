@@ -16,6 +16,7 @@ function getFriends() {
 				face.innerHTML = friend['name'];
 				check.type = "checkbox";
 				check.name = friend['name'];
+				check.className = "right";
 				div.className = "row";
 				div.appendChild(face);
 				div.appendChild(check);
