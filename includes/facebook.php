@@ -14,7 +14,8 @@ function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
 			$.each(response.data,function(index,friend) {
-				$.post("index.php", {Index:index, Friend:friend});
+				console.log(index);
+				console.log(friend);
 			});
 		} else {
 			alert("You ain't got friends!");

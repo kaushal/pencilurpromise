@@ -9,9 +9,6 @@
         mysql_query("INSERT INTO TransTable (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
     }
-	
-	echo $_REQUEST["Index"];
-	echo $_REQUEST["Friend"];
 ?>
 <!DOCTYPE HTML>
 <html>
