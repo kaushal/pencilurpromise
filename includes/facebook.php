@@ -14,6 +14,8 @@ function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
 			$.each(response.data,function(index,friend) {
+				console.log("Index: " + index);
+				console.log("Friend: " + friend);
 				$.ajax( {
 					url: "includes/test.php",
 					type: "GET",
