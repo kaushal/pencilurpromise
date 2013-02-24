@@ -4,7 +4,7 @@
     
     if(isset($_POST['fb_name']) && isset($_POST['fb_id'])){
 
-        echo "Bastard";
+        window.alert("IN HERE FUCK YOU");
         $fb_name = $_POST['fb_name'];
         $fb_id = $_POST['fb_id'];
         mysql_query("INSERT INTO TransTable (Pname, FBID)
