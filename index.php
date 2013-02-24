@@ -5,24 +5,24 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-		<meta charset="utf-8" />
-		<!-- Set the viewport width to device width for mobile -->
-		<meta name="viewport" content="width=device-width" />
-		<!-- title -->
-		<title>Pencil UR Promise</title>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <!-- title -->
+    <title>Pencil UR Promise</title>
 
-		<!-- Included CSS Files -->
-		<link type="text/css" rel="stylesheet" href="includes/css/templates.css" />
-		<link type="text/css" rel="stylesheet" href="includes/css/class.css" />
-		<link type="text/css" rel="stylesheet" href="includes/css/override.css" />
-    
-        <!-- Included JavaScript Files -->
-        <script type="text/javascript" src="includes/js/jquery.js"></script>
-        <script type="text/javascript" src="includes/js/jquery-json.js"></script>
-        <script type="text/javascript" src="includes/js/templates.js"></script>
-        <script type="text/javascript" src="includes/js/pop.js"></script>
-        <script src="http://connect.facebook.net/en_US/all.js"></script>
-    	<?php include("includes/facebook.php") ?>
+    <!-- Included CSS Files -->
+    <link type="text/css" rel="stylesheet" href="includes/css/templates.css" />
+    <link type="text/css" rel="stylesheet" href="includes/css/class.css" />
+    <link type="text/css" rel="stylesheet" href="includes/css/override.css" />
+
+    <!-- Included JavaScript Files -->
+    <script type="text/javascript" src="includes/js/jquery.js"></script>
+    <script type="text/javascript" src="includes/js/jquery-json.js"></script>
+    <script type="text/javascript" src="includes/js/templates.js"></script>
+    <script type="text/javascript" src="includes/js/pop.js"></script>
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <?php include("includes/facebook.php") ?>
 </head>
 <body>
 
@@ -46,19 +46,24 @@
     
     <!-- Main Content
     ====================== -->
-    <div class="row">
     <div class="twelve columns">
+    <div class="row">
     	<!-- Main Display Area -->
         <div class="nine push-three mobile-four columns">
         <!-- Status bar -->
         <div class="row">
             <div class="nine columns">
             <div class="row">
-                <img src="http://placehold.it/525x50"/>
+            	<div class="nine columns"><div class="row">
+                <img src="includes/img/heart-meter.jpg"/>
+                </div></div>
+                <div class="three columns"><div class="row">
+                <img src="includes/img/pencil-mini.jpg"/>
+                </div></div>
             </div>
             </div>
-            <div class="three columns" style="background-color:black">
-            <p>Donation</p>
+            <div class="three columns">
+            	<h4>Donation: $1</h4>
             </div>
             <hr/>
         </div>

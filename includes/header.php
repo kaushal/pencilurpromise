@@ -1,11 +1,11 @@
 <div class="row">
     <div id="top">   
-    <div id="hleft">
+    <div class="left">
     
     	<p>Header left</p>
     
     </div>
-    <div id="hright">
+    <div class="right">
     
     	<fb:login-button autologoutlink="true" onlogin="OnRequestPermission();">
 		</fb:login-button>
