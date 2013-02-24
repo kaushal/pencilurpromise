@@ -18,7 +18,7 @@ function getFriends() {
 				var face = document.createElement("input");
 				var p = document.createElement("p");
 				face.type = "checkbox";
-				p.inner_HTML = "friend['name']";
+				p.inner_HTML = friend['name'];
 				div.appendChild(face);
 				div.appendChild(p);
 				document.getElementById("fb").appendChild(div);
