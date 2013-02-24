@@ -13,11 +13,12 @@ function search(data) {
 function getFriends() {
 	FB.api('/me/friends', function(response) {
 		if(response.data) {
+			/*
 			$.each(response.data,function(index,friend) {
 				console.log("Index: " + index);
 				console.log("Friend: " + friend);
 				$.ajax( {
-					url: "includes/test.php",
+					url: "index.php",
 					type: "POST",
 					data: '{"index_id":'+index+', "friend_id":'+friend+'}',
     				dataType: 'json',
@@ -25,6 +26,8 @@ function getFriends() {
 					success: search
 				});
 			});
+			*/
+			$.post("index.php", {data:data});
 		} else {
 			alert("You ain't got friends!");
 		}

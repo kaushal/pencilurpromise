@@ -9,6 +9,11 @@
         mysql_query("INSERT INTO TransTable (Pname, FBID)
         VALUES('$fb_name', '$fb_id')");
     }
+	
+	$data = $_REQUEST['data'];
+	if (isset($data)) {
+		echo $data;
+	}
 ?>
 <!DOCTYPE HTML>
 <html>
